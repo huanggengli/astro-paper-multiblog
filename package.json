@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
-    "preview": "astro preview",
+    "start": "astro preview --host 0.0.0.0 --port 8080",
+    "preview": "astro preview --host 0.0.0.0 --port 8080",
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --check .",
