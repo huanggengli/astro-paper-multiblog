@@ -1,16 +1,9 @@
 {
+  "type": "static",
   "build": {
     "command": "npm install && npm run build"
   },
-  "run": {
-    "command": "npx serve dist -p 8080"
-  },
-  "networking": {
-    "ports": [
-      {
-        "port": 8080,
-        "type": "HTTP"
-      }
-    ]
+  "output": {
+    "directory": "dist"
   }
 }
