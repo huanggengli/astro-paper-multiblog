@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://h-lucia-multiblog.vercel.app", // replace this with your deployed domain
+  website: "https://h-lucia-multiblog.vercel.app/", // replace this with your deployed domain
   author: "Lucia H",
-  profile: "https://satnaing.dev/",
+  profile: "", // 没有就先写成 "" 或你的其它主页
   desc: "Journaling and documenting myself. Thoughts and ideas about life, language learning and AI learning",
   title: "FindingNorthStar",
   ogImage: "astropaper-og.jpg",
@@ -14,10 +14,10 @@ export const SITE = {
   editPost: {
     enabled: false,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",//my github link
+    url: "",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Guangzhou", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Shanghai", // 中国大陆推荐用这个
 } as const;
