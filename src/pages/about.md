@@ -3,35 +3,36 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I'm **Lucia**.
 
-![Astro Paper](public/astropaper-og.jpg)
+This site, **Finding North Star**, is my personal space to journal, reflect and document my journey.  
+I will write in **Chinese** and **English** and try in **Español** about:
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+- life and personal growth  
+- language learning and thinking in foreign languages  
+- how I learn and think about **AI** and technology  
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+The posts in different languages are **not translations** of each other.  
+Sometimes I think more naturally in Chinese or English, sometimes try some simple idea in Spanish, so each language will have its own ideas and mood.
 
-## Features
+---
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+## Why I write
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Writing is my way to:
 
-and so much more.
+- slow down and listen to my own thoughts  
+- practice expressing complex ideas more clearly  
+- build a record of how my thinking changes over time  
 
-## Show your support
+I don't aim for perfection here. This is more like a **digital garden** than a finished book.
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+---
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+## About this site
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+This site is built with **Astro** and the **AstroPaper** theme, and deployed on **Vercel**.  
+I'm gradually adapting it into my own multilingual space and future portfolio.
 
-Kyay zuu! 🙏🏼
+If you’re reading this, thank you for stopping by.  
+I hope something here resonates with you, or at least makes you think a little.
