@@ -1,6 +1,7 @@
 ---
-author: Lucia H
+author: "Lucia H"
 pubDatetime: 2026-03-16T23:00:00Z
+modDatetime: 2026-03-16T23:00:00Z
 title: "My Journey to Finding North Star"
 postSlug: "my-journey-begins"
 featured: true
@@ -8,6 +9,7 @@ draft: false
 tags:
   - English
   - Thoughts
+ogImage: "/astropaper-og.jpg"
 description: "Sharing my thoughts on website building with AI."
 ---
 # Patience: The Unexpected Key to Building My First Website with AI
