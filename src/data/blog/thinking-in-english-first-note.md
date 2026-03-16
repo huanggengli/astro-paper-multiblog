@@ -3,13 +3,12 @@ author: "Lucia H"
 pubDatetime: 2026-03-16T23:00:00Z
 modDatetime: 2026-03-16T23:00:00Z
 title: "My Journey to Finding North Star"
-postSlug: "my-journey-begins"
+slug: "my-journey-begins"
 featured: true
 draft: false
 tags:
   - English
   - Thoughts
-ogImage: "/astropaper-og.jpg"
 description: "Sharing my thoughts on website building with AI."
 ---
 # Patience: The Unexpected Key to Building My First Website with AI
@@ -35,7 +34,7 @@ More errors appeared.
 I was stuck—until AI pointed out a critical insight: Astro sites should be deployed as static sites, but Zeabur was attempting to run them as dynamic applications using Docker. The platform simply wasn't designed for this use case.
 So I switched to Vercel instead. Within moments, the deployment succeeded.
 It was that simple.
-This seemingly minor switch taught me a valuable lesson: platform selection matters profoundly. Different projects have different requirements, and choosing the right deployment tool from the start can save hours of troubleshooting. In the future, I'll ask AI to recommend the optimal platform before I even begin building.
+This seemingly minor switch taught me a valuable lesson: **platform selection matters profoundly**. Different projects have different requirements, and choosing the right deployment tool from the start can save hours of troubleshooting. In the future, I'll ask AI to recommend the optimal platform before I even begin building.
 Yet the deployment phase itself was emotionally taxing. I spent hours debugging without fully understanding what was happening—simply following AI's instructions and troubleshooting methodically, one step at a time.
 Each error message tested my patience. After several failed attempts, I felt frustrated and seriously considered abandoning the project. But I took a short break, returned with fresh eyes, and continued. What kept me going wasn't just stubbornness—it was knowing I had no
 other option but to persist. And that persistence paid off.
@@ -43,7 +42,7 @@ other option but to persist. And that persistence paid off.
 Once deployed, the real work began: transforming the generic template into something uniquely mine. With AI's guidance, I located the configuration files and edited the site information, home page, and about page, gradually infusing the template with my personality and voice.
 Watching the blog transform from a cookie-cutter template into something that felt authentically mine was profoundly satisfying. Yes, it's still a simple blog—but it's my blog, built entirely by me (with AI assistance).
 Looking back, I'm struck by how I nearly gave up during the deployment phase. But I persevered, and now I have something tangible to show for that effort. This experience crystallized an insight I'll carry forward: 
-The real blocker for non-technical people isn't intelligence or capability—**it's patience**. And with AI as your guide, patience is all
-you really need.
+**The real blocker for non-technical people isn't intelligence or capability—it's patience. And with AI as your guide, patience is all
+you really need**.
 If you're thinking about building a website but feel held back by lack of technical skills, don't. The tools exist. The tutorials exist. And now, AI can guide you through every step. What you need isn't a computer science degree—it's the willingness to sit with frustration, learn from errors, and keep going.
 That's the real lesson my website taught me.
