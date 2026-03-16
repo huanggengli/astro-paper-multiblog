@@ -11,8 +11,8 @@ tags:
   - Thoughts
 description: "Sharing my thoughts on website building with AI."
 ---
-# Patience: The Unexpected Key to Building My First Website with AI
-As a non-technical person , I recently built my first website using AI tools and web templates. What surprised me most wasn't the ease of the process, but rather a simple lesson: patience was the key to success.
+
+As a non-technical person, I recently built my first website using AI tools and web templates. What surprised me most wasn't the ease of the process, but rather a simple lesson: patience was the key to success.
 ## The Journey Begins: Discovering Vibe Coding
 For a long time, I've wanted to build a personal website to document my thoughts and projects in the future—something I see others do effortlessly. So I decided to turn this aspiration into reality.
 ## First Attempt: Vibe Coding with AI Tools
@@ -52,8 +52,10 @@ Once deployed, the real work began: transforming the generic template into somet
 Watching the blog transform from a cookie-cutter template into something that felt authentically mine was profoundly satisfying. Yes, it's still a simple blog—but it's my blog, built entirely by me (with AI assistance).
 
 Looking back, I'm struck by how I nearly gave up during the deployment phase. But I persevered, and now I have something tangible to show for that effort. This experience crystallized an insight I'll carry forward: 
+
 **The real blocker for non-technical people isn't intelligence or capability—it's patience. And with AI as your guide, patience is all
 you really need**.
+
 If you're thinking about building a website but feel held back by lack of technical skills, don't. The tools exist. The tutorials exist. And now, AI can guide you through every step. What you need isn't a computer science degree—it's the willingness to sit with frustration, learn from errors, and keep going.
 
 That's the real lesson my website taught me.
