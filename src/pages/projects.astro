@@ -1,0 +1,96 @@
+---
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Layout from "@/layouts/Layout.astro";
+import { SITE } from "@/config";
+
+const projects = [
+  {
+    title: "Personal Blog Customization",
+    description: "Customizing this blog theme, improving typography, layout, and user experience. Exploring multilingual content management and SEO optimization.",
+    status: "In Progress",
+    statusColor: "bg-blue-500/20 text-blue-600 dark:text-blue-400",
+  },
+  {
+    title: "AI-Assisted Tool-building",
+    description: "Exploring how to effectively use AI to build small tools that will solve my real life problems, such as a personal knowledge management system, a language learning assistant, and a writing assistant",
+    status: "Exploring",
+    statusColor: "bg-amber-500/20 text-amber-600 dark:text-amber-400",
+  },
+  {
+    title: "Language Learning Notes System",
+    description: "Building a personalized system for documenting language learning insights, patterns, and reflections across English, Chinese, and Spanish.",
+    status: "Planning",
+    statusColor: "bg-emerald-500/20 text-emerald-600 dark:text-emerald-400",
+  },
+];
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout">
+    <section id="projects" class="mb-28 max-w-app">
+      <h1 class="mb-8 text-3xl font-bold sm:text-4xl">Projects</h1>
+      
+      <div class="mb-12 space-y-4 backdrop-blur-0 border-l-4 border-accent/30 ps-6">
+        <p class="text-lg leading-relaxed">
+          This page documents my <strong>ongoing and completed projects</strong>. 
+          Here I explore ideas that interest me, experiment with new tools and workflows, 
+          and document the journey of learning and building.
+        </p>
+        <p class="text-lg leading-relaxed">
+          Rather than waiting for projects to be "finished," I believe in sharing the process—
+          the explorations, iterations, and insights along the way.
+        </p>
+      </div>
+
+      <section id="currently-exploring" class="space-y-8">
+        <h2 class="text-2xl font-semibold tracking-wide">Currently Exploring</h2>
+        
+        <div class="grid gap-6">
+          {projects.map(project => (
+            <article class="rounded-lg border border-border/50 bg-background/50 p-6 backdrop-blur-sm transition-all hover:border-accent/50 hover:bg-background/80">
+              <div class="mb-3 flex items-start justify-between gap-4">
+                <h3 class="text-xl font-semibold flex-1">{project.title}</h3>
+                <span class={`inline-block whitespace-nowrap rounded-full px-3 py-1 text-sm font-medium ${project.statusColor}`}>
+                  {project.status}
+                </span>
+              </div>
+              <p class="text-foreground/80 leading-relaxed">
+                {project.description}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section id="future-plans" class="mt-16 border-t border-border/50 pt-12">
+        <h2 class="text-2xl font-semibold tracking-wide mb-4">Future Directions</h2>
+        <p class="text-foreground/75 leading-relaxed">
+          More projects will be added as I progress. This space will grow to include completed projects, 
+          case studies, and learnings from different domains like writing, technology, and language learning.
+        </p>
+      </section>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  #projects {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
